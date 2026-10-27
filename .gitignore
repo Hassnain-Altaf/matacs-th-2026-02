@@ -1,0 +1,49 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+*.pfx
+
+# PDF documents (including candidate brief)
+*.pdf
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+.turbo/
+out/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Test coverage and reports
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*~
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
